@@ -1,0 +1,49 @@
+/* จัด layout ให้อยู่กลางจอพอดี */
+.layout-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* กล่องแสดงแอป */
+.layout-frame {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 3px solid #000;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* พื้นที่แสดงคอนเทนต์ของแต่ละหน้า */
+.layout-content {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE และ Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
+/* Chrome, Safari, Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+

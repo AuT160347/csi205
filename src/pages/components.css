@@ -1,0 +1,21 @@
+.components-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* กล่องใหญ่ครอบทุก component */
+.components-box {
+  background-color: #e9ecef; /* เทาอ่อน */
+  border-radius: 20px;       /* มุมโค้ง */
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+/* ปรับให้ layout ด้านในจัดตรงกลางและไม่ซ้อนกัน */
+.components-box .row {
+  justify-content: center;
+  align-items: start;
+}

@@ -1,0 +1,53 @@
+
+.anim-field{ 
+    border: 1px solid black; 
+    background-image: url(./img/woodBG.jpg); 
+    background-position: center;
+    border-radius: 1rem; position: relative; 
+    overflow: hidden;
+    margin: 0 auto;           /* จัดกลางแนวนอน */
+    display: flex;
+    justify-content: center;  /* ถ้ามีลูกบอลหรือองค์ประกอบย่อยข้างใน */
+    align-items: center; 
+    
+     
+     }
+.anim-ball{ 
+    width: 100px; height: 100px; 
+    border-radius: 50%; 
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: lightblue; 
+    position: absolute; left: 0; 
+    top: 0; }
+.anim-control{ 
+    margin-top: 1rem; }
+.controls-row{ 
+    display:flex; 
+    gap:0.5rem; 
+    align-items:center; }
+.name-line{ 
+    text-align:center; 
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif; }
+    .btn-gold-font {
+  color: gold;            /* ฟอนต์สีทอง */
+  border-color: gold;      /* ขอบสีทอง */
+}
+
+.btn-gold-font.btn-dark {
+  color: gold;             /* ฟอนต์สีทองเวลาเลือก */
+  border-color: gold;
+  background-color: #333;  /* สีพื้นเหมือน btn-dark */
+}
+
+.btn-gold-font.btn-outline-dark {
+  color: gold;             /* ฟอนต์สีทองตอนไม่ได้เลือก */
+  border-color: gold;      /* ขอบสีทอง */
+}
+
+.btn-gold-font:hover {
+  background-color: gold;  /* เวลาวางเมาส์ */
+  color: black;
+  border-color: gold;
+}
