@@ -1,3 +1,5 @@
+import aut from "/img/devimg.gif" 
+
 const home = () => {
     return ( 
         <div
@@ -16,7 +18,7 @@ const home = () => {
     <div className="row g-0 align-items-center">
       <div className="col-md-4 d-flex justify-content-center">
         <img
-          src="img/devimg.gif"
+          src={aut}
           className="img-fluid rounded-circle m-3"
           alt="นันธวัช สงนุ้ย"
           style={{ width: "120px", height: "120px", objectFit: "cover" }}

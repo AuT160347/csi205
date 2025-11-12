@@ -1,7 +1,9 @@
+import icon from "/img/logosub.png"
+
 const Appheader = () => {
     return ( 
         <>
-            <img src="img/logosub.png" style={{width:'100px'}} />
+            <img src={icon} style={{width:'100px'}} />
             <h4 style={{ color: 'gold' }}>การพัฒนาโปรแกรมส่วนหน้า</h4>
         </>
      );
